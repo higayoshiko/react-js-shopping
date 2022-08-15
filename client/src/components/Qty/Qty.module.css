@@ -1,0 +1,25 @@
+.qtyCounter__ctn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.qtyCounter__btn {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #B590CA;
+  border-radius: 50%;
+  background-color: #B590CA;
+  padding: 10px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
