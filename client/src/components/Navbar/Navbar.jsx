@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import styles from './Navbar.module.css';
@@ -11,9 +12,9 @@ return(
   <nav className={styles.mainNav}>
     <ul>
       <li className={styles.li}>
-        <a className={styles.a} href="">
+        <Link to="/Cart" className={styles.a}>
           <FontAwesomeIcon icon={faCartShopping} />
-        </a>
+        </Link>
       </li>
     </ul>
   </nav>
