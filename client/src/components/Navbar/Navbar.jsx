@@ -6,11 +6,14 @@ import styles from './Navbar.module.css';
 
 const Navbar = () => {
 
-
-
 return(
   <nav className={styles.mainNav}>
-    <ul>
+    <ul className={styles.ul}>
+      <li className={styles.li}>
+        <Link to="/" className={styles.a}>
+          Home
+        </Link>
+      </li>
       <li className={styles.li}>
         <Link to="/Cart" className={styles.a}>
           <FontAwesomeIcon icon={faCartShopping} />

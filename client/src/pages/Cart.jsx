@@ -3,9 +3,10 @@ import React from 'react';
 const Cart = () => {
 
   return (
-    <p>
-    Inside cart
-    </p>
+    <div>
+      <h3>Shopping Cart</h3>
+      <p><span></span> Items<p>
+    </div>
   );
 }
 
