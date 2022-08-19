@@ -1,0 +1,8 @@
+.generalFees {
+  display: flex;
+  justify-content: space-between;
+}
+
+.orderTotal {
+  font-weight: bold;
+}
